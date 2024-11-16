@@ -1,0 +1,73 @@
+.qr-generator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .qr-generator h1 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 2rem;
+  }
+  
+  .input-section {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    width: 220px;
+    outline: none;
+  }
+  
+  button {
+    padding: 8px 15px;
+    font-size: 1rem;
+    background-color: #dc11a9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #b8481f;
+  }
+  
+  .qr-code {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .qr-code img {
+    border: 4px solid #28a745;
+    border-radius: 5px;
+    margin-bottom: 8px;
+  }
+  
+  .qr-code a {
+    text-decoration: none;
+    color: #284ca7;
+    font-weight: bold;
+  }
+  
+  .qr-code a:hover {
+    text-decoration: underline;
+  }
+  
